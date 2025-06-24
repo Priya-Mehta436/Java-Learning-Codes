@@ -9,7 +9,7 @@ public class Lecture03{
           // int bonus = 100;
 
           if (score <= 5000) {
-               System.out.println("Your score is less than or equal to 5000");
+               System.out.println("Your score is less than or equal to 5000\n");
           } else {
                System.out.println("The score is not under 5000");
           }
