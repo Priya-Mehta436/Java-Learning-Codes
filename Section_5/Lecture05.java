@@ -1,6 +1,6 @@
 package Section_5;
 
-public class Lecture04 {
+public class Lecture05 {
      public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
           int finalScore = score;
