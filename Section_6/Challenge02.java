@@ -58,8 +58,4 @@ public class Challenge02 {
                 return -1;
         }
     }
-
-   
-
 }
-    
