@@ -1,6 +1,10 @@
 package Section_07;
 
 public class Challenge31 {
+
+    public static void main(String[] args) {
+        
+    }
     private String firstName;
     private String lastName;
     private int age;
@@ -30,28 +34,29 @@ public class Challenge31 {
     }
 
     public boolean isTeen(){
-        if ((age > 12 )&& (age < 20)) {
+       if((age > 12 )&& (age < 20)) {
             return true;
-        } else{
+        } else {
             return false;
         }
     }
    
     public String getFullName(){
        
-            if ((firstName == " ") && (lastName == " ")){
+            if (firstName.isEmpty() && lastName.isEmpty()){
                 return " ";
             }
-            if (lastName == " "){
+            if (lastName.isEmpty()){
                 return firstName;
             }
-            if (firstName == " "){
+            if (firstName.isEmpty()){
                 return lastName;
             }
     
             return firstName + " " + lastName;
-               
-     }
+            
+        
+    }
 
 }
  
