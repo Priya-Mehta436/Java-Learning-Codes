@@ -7,17 +7,32 @@ public class L04_account_1 {
     private double accBalance;
     private String phoneNumber;
 
-    //constructor declaration
+    //First constructor 
+    //this() -> constructor chaining
     public L04_account_1(){
+        this("4556837884755", 5000.0 , "Default Name", "Default address", "Default phone");
         System.out.println("Empty constructor called");
     }
+
+    //Second constructor 
+
+
     public L04_account_1(String number, double balance, String Name, String email, String phone){
         System.out.println("Account constructor with parameters called");
         this.accNumber = number;
         this.accBalance = balance;
         this.customerName = Name;
         this.email = email;
-        this.phoneNumber = phone;
+        this.phoneNumber = number;
+    }
+
+    //Third constructor
+
+    public L04_account_1(String Name, String email, String phone){
+        this("9999", 670.50, Name, email, phone);
+        // this.customerName = Name;
+        // this.email = email;
+        // this.phoneNumber = phone;
     }
 
     //for deposit
