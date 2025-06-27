@@ -9,7 +9,7 @@
 8. Method named getDivisionResult without any parameters it needs to return the result of dividing the field values of firstNumber by the secondNumber. In case the value of secondNumber is 0 then return 0.
 */
 
-package Section_07;
+package Section_7;
 
 public class Challenge30 {
     private double firstNumber;

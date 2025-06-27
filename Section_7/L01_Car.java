@@ -1,4 +1,4 @@
-package Section_07;
+package Section_7;
 
 public class L01_Car {
     private String make = "Tesla";

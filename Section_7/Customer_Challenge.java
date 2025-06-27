@@ -1,4 +1,4 @@
-package Section_07;
+package Section_7;
 
 public class Customer_Challenge {
     private String name;

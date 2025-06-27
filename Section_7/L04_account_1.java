@@ -1,4 +1,4 @@
-package Section_07;
+package Section_7;
 
 public class L04_account_1 {
     private String customerName;
