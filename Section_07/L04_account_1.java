@@ -7,6 +7,19 @@ public class L04_account_1 {
     private double accBalance;
     private String phoneNumber;
 
+    //constructor declaration
+    public L04_account_1(){
+        System.out.println("Empty constructor called");
+    }
+    public L04_account_1(String number, double balance, String Name, String email, String phone){
+        System.out.println("Account constructor with parameters called");
+        this.accNumber = number;
+        this.accBalance = balance;
+        this.customerName = Name;
+        this.email = email;
+        this.phoneNumber = phone;
+    }
+
     //for deposit
 
     public void depositFunds(double depositAmount){
