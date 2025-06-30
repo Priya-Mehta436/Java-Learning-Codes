@@ -7,7 +7,7 @@ public class Product {
     private int height;
     private int depth;
 
-    private Product (String model, String manufacturer){
+    protected Product (String model, String manufacturer){
         this.model = model;
         this.manufacturer = manufacturer;
     }
@@ -26,13 +26,11 @@ class Monitor extends Product {
         this.resolution = resolution;
     }
     public void drawPixelAt (int x, int y, String color){
-        System.out.println(String format(
+        System.out.println(String.format(
             "Drawing pixel at %d, %d in color is", x, y, color
             ));
     
     }
-
-
 }
 
 //MOTHERBOARD
@@ -56,7 +54,6 @@ class Motherboard extends Product {
 
 }
 
-//COMPUTERCASE
 class ComputerCase extends Product {
     private String powerSupply; 
 
