@@ -1,19 +1,7 @@
 package Section_8.Composition;
 
-public class Product {
-    private String model;
-    private String manufacturer;
-    private int width;
-    private int height;
-    private int depth;
-
-    protected Product (String model, String manufacturer){
-        this.model = model;
-        this.manufacturer = manufacturer;
-    }
-
-    //MONITOR
-class Monitor extends Product {
+//MONITOR
+class Monitor extends Product { 
     private int size;
     private String resolution;
 
@@ -34,7 +22,7 @@ class Monitor extends Product {
 }
 
 //MOTHERBOARD
-class Motherboard extends Product {
+class Motherboard extends Product { 
     private int ramSlots;
     private int cardSlots;
     private String bios;
@@ -69,4 +57,3 @@ class ComputerCase extends Product {
         System.out.println("Power Button pressed");
     }
      }
-}
