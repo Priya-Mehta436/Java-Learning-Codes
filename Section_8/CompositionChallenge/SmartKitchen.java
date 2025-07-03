@@ -2,7 +2,7 @@ package Section_8.CompositionChallenge;
 
 import Section_8.CompositionChallenge.CoffeeMaker.Refrigerator.DishWasher;
 
-public class SmartKitchen {
+public class SmartKitchen<iceBox, Refrigerator> {
 
     private CoffeeMaker brewMaster;
     private Refrigerator iceBox;
@@ -20,7 +20,7 @@ public class SmartKitchen {
     public Refrigerator getIceBox(){
         return iceBox;
     }
-    public CoffeeMaker getDishWasher(){
+    public DishWasher getDishWasher(){
         return dishWasher;
     }
     public void setKitchenState(boolean coffeeFlag, boolean fridgeFlag, boolean dishWasherFlag){
@@ -79,8 +79,8 @@ class DishWasher {
             hasWorkToDo = false;
         }
     }
-}
-}
+  }
+ }
 }
 
 
